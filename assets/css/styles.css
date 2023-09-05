@@ -170,6 +170,7 @@ ul{
 }
 .container-info section p{
     font-size: var(--sm);
+    font-weight: 300;
     margin-top: 5rem;
     width: 30rem;
 }
@@ -184,4 +185,32 @@ margin-top: 8rem;
     margin-top: 6rem;
     z-index: -1;
     background-color: var(--secondary-color);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--primary-color);
+    padding: 2rem 5rem;
+    width: 100%;
+position: relative;
+    z-index: 3;
+}
+footer p{
+    color: white;
+    font-size: var(--sm);
+    font-weight: 200;
+}
+footer figure img{
+    width: 6rem;
+    height: 4rem;
+}
+footer section a img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+    gap:2.2rem
 }
