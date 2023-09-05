@@ -1,0 +1,17 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --primary-color:#646464;
+    --secondary-color:#d89e1a;
+    --ligth-grey:#d9d6cf;
+    --dark:#090909;
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 1.8rem;
+}
