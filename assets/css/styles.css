@@ -259,6 +259,7 @@ footer section{
     font-size: 17px;
     width: 1em;
     margin-bottom: 1rem;
+    margin-left: 1.4rem;
     height: 1em;
     user-select: none;
     border: 2px solid var(--secondary-color);
@@ -289,34 +290,30 @@ footer section{
     transform: scale(1);
   }
   .container p{
-    margin-left: 4rem;
+    margin-left: 2.4rem;
     color: #ffffff;
     font-size: var(--sm);
   }
   .filter-button {
     padding: 12.5px 30px;
     border: 0;
-    
+    width: 100%;
     background-color: var(--secondary-color);
     color: #ffffff;
     font-weight: Bold;
     transition: all 0.5s;
+    margin-top: 1.6rem;
     -webkit-transition: all 0.5s;
   }
   
   .filter-button:hover {
     background-color: var(--secondary-color);
-    box-shadow: 0 0 20px #6fc5ff50;
+    box-shadow: 0 0 20px #433f0350;
     transform: scale(1.1);
+    
   }
   
-  .filter-button:active {
-    background-color: var(--secondary-color);
-    transition: all 0.25s;
-    -webkit-transition: all 0.25s;
-    box-shadow: none;
-    transform: scale(0.98);
-  }
+
   .container-filter{
     background-color: var(--primary-color);
     padding: 2.4rem;
@@ -375,4 +372,10 @@ footer section{
     width: 100%;
     grid-template-columns: repeat(auto-fill,22rem);
     gap: 1.6rem;
+  }
+  .subtitle-filter{
+    color: var(--secondary-color);
+    font-size: var(--lg);
+    font-weight: 500;
+    padding: 1.6rem 0;
   }
