@@ -5,6 +5,8 @@ box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
+    min-height: 100%;
+    position: relative;
 }
 :root{
     --primary-color:#181b20;
@@ -129,9 +131,7 @@ ul{
     background-color: #fff;
     width: 3rem;
   }
-  .side-nav ul{
-    margin-bottom: 15rem;
-  }
+
   .side-nav li{
     margin: 5rem 0;
   }
@@ -156,7 +156,7 @@ ul{
 .container-info{
     display: flex;
     justify-content: center;
-    margin: 3rem 0;
+    margin: 3rem 0 10rem 0;
     
     gap: 20rem;
 }
@@ -195,7 +195,9 @@ footer{
     background-color:var(--primary-color);
     padding: 2rem 5rem;
     width: 100%;
-position: relative;
+position: absolute;
+bottom: 0;
+
     z-index: 3;
 }
 footer p{
@@ -238,7 +240,7 @@ footer section{
     outline: 1px solid lightgrey;
   }
   main{
-    margin:0.8rem 0 3rem 0 ;
+    margin:0.8rem 0 7rem 0 ;
     padding: 3rem;
     display: flex;
     justify-content: center;
